@@ -6,7 +6,7 @@ const AboutSection = () => {
       <div className="max-w-5xl mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl font-bold text-blue-400 mb-4 flex items-center justify-center gap-2">
-          👋 A Little About Me
+          👋🏽 A Little About Me
         </h2>
 
         <p className="text-lg leading-relaxed font-light">
@@ -30,11 +30,11 @@ const AboutSection = () => {
         </h3>
         <p className="text-lg leading-relaxed font-light">
           When I'm not coding, you can catch me hooping with friends,
-          binge-watching TV shows, or <span className="font-semibold text-blue-400">hunting down must-try restaurants</span> from
-          TikTok. I also enjoy watching <span className="font-bold text-blue-400">professional wrestling</span>, and I’m always up for a conversation about{" "}
-          <span className="font-semibold text-blue-400">basketball, fitness, or the best hidden gems in NYC & LA</span>.
-          I value spending time outdoors, whether it's <span className="font-semibold text-blue-400">going for long drives, hiking, or walking around the city</span>.
-          Music is a big part of my life too, and I love listening to both <span className="font-semibold text-blue-400">English and Spanish music of all generes </span> 🎶.
+          binge-watching TV shows, or hunting down must-try restaurants from
+          TikTok. I also enjoy watching professional wrestling, and I’m always up for a conversation about{" "}
+          basketball 🏀, fitness 💪🏽, or the best hidden gems in NYC & LA ✈️.
+          I value spending time outdoors, whether it's going for long drives, hiking, or walking around the city.
+          Music is a big part of my life too, and I love listening to both English and Spanish music of all generes 🎶.
         </p>
 
 
@@ -42,7 +42,7 @@ const AboutSection = () => {
         <hr className="border-gray-600 my-6" />
 
         {/* Goals & Future */}
-        <h3 className="text-2xl font-semibold text-green-400 mb-4 flex items-center justify-center gap-2">
+        <h3 className="text-2xl font-semibold text-blue-400 mb-4 flex items-center justify-center gap-2">
           🌍 Goals & Future
         </h3>
         <p className="text-lg leading-relaxed font-light">
@@ -51,8 +51,9 @@ const AboutSection = () => {
             full-stack engineer
           </span>, working on scalable web applications that bridge the gap between{" "}
           <span className="font-semibold text-blue-400">frontend and backend</span>. 
-          I enjoy architecting solutions that bring ideas to life, and I’m currently expanding my skillset with{" "}
-          <span className="font-semibold text-blue-400">technologies such as Google Cloud and AWS</span> to deepen my 
+          I enjoy architecting solutions that bring ideas to life, and I’m currently expanding my skillset with technologies such as{" "}
+          <span className="font-semibold text-blue-400"> Google Cloud</span> and 
+          <span className="font-semibold text-blue-400"> AWS </span>to deepen my 
           understanding of <span className="font-semibold text-blue-400">cloud infrastructure</span> and deployment strategies.
           <br /><br />
           Eventually, I’d love to transition into{" "}
@@ -60,7 +61,7 @@ const AboutSection = () => {
           <span className="font-bold text-blue-400">MBA</span> while working. Long-term, I want to{" "}
           <span className="font-bold text-blue-400">give back</span>—whether that’s through mentoring,
           founding an organization, or even becoming a professor to help{" "}
-          <span className="font-bold text-blue-400">low-income, first-gen students</span> like myself break into tech.
+          <span className="font-bold text-blue-400">low-income, first-gen </span> students like myself break into tech.
         </p>
 
         {/* Divider */}
@@ -69,11 +70,11 @@ const AboutSection = () => {
         {/* Call to Action */}
         <p className="text-lg mt-6">
           Let’s connect—whether it’s about tech, basketball, or the best food spots!{" "}
-          <span className="font-bold text-blue-400">I’d love to chat.</span> 🚀
+          <span className="font-bold text-blue-400">I’d love to chat.</span> 🗣️
         </p>
         <a
           href="mailto:your-email@example.com"
-          className="mt-6 inline-block bg-green-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600 transition"
+          className="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600 transition"
         >
           Contact Me
         </a>
